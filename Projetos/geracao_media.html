@@ -1,0 +1,16 @@
+<meta charset="UTF-8">
+<script>
+    var idadePais = 28;
+    var descobrimentoBrasil = 1500;
+    var anoAtual = 2022;
+    var anosDecorridos = anoAtual - descobrimentoBrasil;
+    function mostra(mensagem){
+        document.write(mensagem);
+    }
+    function pulaLinha(){
+        document.write("<br>");
+    }
+    mostra("Se passaram " + anosDecorridos + " anos desde a chegada dos portugueses no Brasil"); pulaLinha();
+    mostra("Quantas gerações se passaram?"); pulaLinha();
+    mostra("Se passaram " + Math.round(anosDecorridos / idadePais) + " gerações ao decorrer do tempo.");
+</script>
